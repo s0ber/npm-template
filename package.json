@@ -1,0 +1,26 @@
+{
+  "name": "PACKAGE_NAME",
+  "version": "0.1.0",
+  "description": "DESCRIPTION",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "./node_modules/coffee-script/bin/coffee -o lib -c src/index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GITHUB_USER/GITHUB_REPO.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": ""
+  },
+  "keywords": [
+  ],
+  "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GITHUB_USER/GITHUB_REPO/issues"
+  }
+}
