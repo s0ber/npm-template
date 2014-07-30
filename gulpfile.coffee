@@ -1,5 +1,4 @@
 gulp = require('gulp')
-grep = require('gulp-grep-stream')
 watch = require('gulp-watch')
 mocha = require('gulp-mocha')
 gutil = require('gulp-util')
