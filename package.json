@@ -4,8 +4,7 @@
   "description": "DESCRIPTION",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "./node_modules/coffee-script/bin/coffee -o lib -c src/index.coffee"
+    "test": "gulp --require coffee-script/register mocha:ci"
   },
   "repository": {
     "type": "git",
@@ -20,7 +19,8 @@
     "sinon": "~1.9.1",
     "sinon-chai": "~2.5.0",
     "gulp": "~3.6.2",
-    "gulp-grep-stream": "~0.0.2",
+    "gulp-util": "~2.2.14",
+    "gulp-coffee": "~1.4.3",
     "gulp-watch": "~0.6.5",
     "gulp-mocha": "~0.4.1",
     "coffeegulp": "~0.0.4"
