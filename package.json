@@ -25,8 +25,6 @@
     "gulp-mocha": "~0.4.1",
     "coffeegulp": "~0.0.4"
   },
-  "keywords": [
-  ],
   "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
   "license": "MIT",
   "bugs": {
