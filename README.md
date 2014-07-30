@@ -34,13 +34,13 @@ You can also sync your TravisCI account and turn on builds for your repo.
 
 ### Releasing
 
-If you want to release a new version of your package, at first, edit ```package.json```, then perform the following task.
+If you want to release and publish a new version of your package, at first, edit ```package.json```, then perform the following task.
 
 ```
 coffeegulp release
 ```
 
-It will at first run your specs. If they'll pass, compiled versions of your source files will be created in **lib/** folder.
+It will at first run your specs. If they'll pass, compiled versions of your source files will be created in **lib/** folder. You can make this task as _prepublish_ command, but haven't found a way to cancel publishing process when tests are failing.
 
 
 ### Source files
