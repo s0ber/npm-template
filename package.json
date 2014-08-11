@@ -4,7 +4,8 @@
   "description": "DESCRIPTION",
   "main": "lib/index.js",
   "scripts": {
-    "test": "gulp --require coffee-script/register mocha:ci"
+    "test": "gulp --require coffee-script/register mocha:ci",
+    "prepublish": "gulp --require coffee-script/register release"
   },
   "repository": {
     "type": "git",
