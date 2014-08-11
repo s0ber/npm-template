@@ -7,4 +7,4 @@ describe 'Main', ->
 
   describe '#contructor', ->
     it 'sets @property to true', ->
-      expect(@object.property).to.be.false
+      expect(@object.property).to.be.true
