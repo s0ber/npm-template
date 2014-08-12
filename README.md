@@ -10,8 +10,7 @@ Clone this repo, rename it, remove git files. Install **gulp** and **coffeegulp*
 
 ```
 cd ~/my_projects
-git clone git@github.com:s0ber/npm-template.git
-mv npm-template my_awesome_package
+git clone git@github.com:s0ber/npm-template.git my_awesome_package
 cd my_awesome_package
 rm -rf .git
 
