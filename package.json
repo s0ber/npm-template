@@ -24,7 +24,8 @@
     "gulp-coffee": "~1.4.3",
     "gulp-watch": "~0.6.5",
     "gulp-mocha": "~0.4.1",
-    "coffeegulp": "~0.0.4"
+    "coffeegulp": "~0.0.4",
+    "rimraf": "~2.2.8"
   },
   "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
   "license": "MIT",
