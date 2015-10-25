@@ -1,5 +1,5 @@
 export default class {
   constructor() {
-    this.property = false
+    this.property = true
   }
 }
