@@ -4,8 +4,7 @@
   "description": "DESCRIPTION",
   "main": "lib/index.js",
   "scripts": {
-    "test": "gulp mocha:ci",
-    "prepublish": "gulp release"
+    "test": "gulp mocha:ci"
   },
   "repository": {
     "type": "git",

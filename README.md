@@ -33,9 +33,9 @@ You can also sync your TravisCI account and turn on builds for your repo.
 ### Releasing
 
 If you want to release and publish a new version of your package, at first, edit ```package.json```.
-Then you can publish your package with ```npm publish``` command. But before publishing it'll run *prepuplish* script.
-It will at first run your tests. If they'll pass, compiled versions of your source files will be created in **lib/** folder.
-And then publishing process will start.
+Then run ```gulp release``` task.  It will at first run your tests. If they'll pass,
+compiled versions of your source files will be created in **lib/** folder.
+After that you can start publishing process by calling `npm publish`.
 
 ### Source files
 
