@@ -1,3 +1,2 @@
 src
-spec
-gulpfile.coffee
+gulpfile.babel.js

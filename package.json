@@ -4,28 +4,27 @@
   "description": "DESCRIPTION",
   "main": "lib/index.js",
   "scripts": {
-    "test": "gulp --require coffee-script/register mocha:ci",
-    "prepublish": "gulp --require coffee-script/register release"
+    "test": "gulp mocha:ci",
+    "prepublish": "gulp release"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/GITHUB_USER/GITHUB_REPO.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "coffee-script": "~1.7.1",
     "mocha": "~1.18.2",
     "chai": "~1.9.1",
     "sinon": "~1.9.1",
     "sinon-chai": "~2.5.0",
-    "gulp": "~3.6.2",
+    "gulp": "~3.9.0",
     "gulp-util": "~2.2.14",
-    "gulp-coffee": "~1.4.3",
     "gulp-watch": "~0.6.5",
     "gulp-mocha": "~0.4.1",
     "coffeegulp": "~0.0.4",
-    "rimraf": "~2.2.8"
+    "rimraf": "~2.2.8",
+    "gulp-babel": "^5.3.0",
+    "babel": "^5.8.29"
   },
   "author": "AUTHOR_NAME <AUTHOR_EMAIL>",
   "license": "MIT",
